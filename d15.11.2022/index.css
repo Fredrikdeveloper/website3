@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } body {
+    background: #F7F6FF;
+    font-family: 'Manrope', sans-serif;
+
+ } 
+ .container {
+    width: 90%;
+   margin: 0 auto;
+  
+ }
+  nav {
+    width: 100%;
+    background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+
+ } .nav-menu {
+    width: 84%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+   margin: 0 auto;
+    justify-content: space-between;
+   
+ } .nav-menu > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+ } .nav-menu > ul > li {
+     padding: 0px 10px;
+ } .nav-menu > ul > li > img {
+    height: 70px;
+ } .nav-menu > ul > li > button {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  border-radius: 9px;
+  
+
+
+
+
+width: 205px;
+height: 54px;
+border: none;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+ }
+
+
+ /* header */
+
+ header {
+    width: 100%;
+    
+ } .header-menu {
+    width: 90%;
+   height: 325px;
+   display: flex;
+   align-items: center;
+   padding-top: 87px;
+   margin: 0 auto;
+   justify-content: space-between;
+ } .header-img > img {
+    height: 325px;
+ } .header-text > button {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+border-radius: 9px;
+
+  
+
+
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+margin-top: 29px;
+border: none;
+color: #FFFFFF;
+padding: 14px 30px;
+ } .header-text > h1 {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 65px;
+color: #333333;
+ } .header-text > p {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+margin-top: 13px;
+ }
+
+
+ /* section1 */
+ .section1 {
+    width: 100%;
+    margin-top: 90px;
+ } .section-menu-1 {
+    margin: 0 auto;
+    width: 90%;
+    height: 274px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+  
+ } .section-menu-1 > h1 {
+   position: relative;
+   top: 40px;
+   left: 23px;
+ }
+  .section1-menu-main > ul{
+    list-style: none;
+   
+ } .section1-menu-main {
+    height: 274px;
+ display: flex;
+justify-content: space-between;
+justify-content: space-around;
+    margin-top: 100px;
+ }
+
+.card-body > h6 {
+    vertical-align: bottom;
+}
+.card-body-options {
+    display: flex;
+  
+   
+}
+
+
+
+ .section-1-line {
+    width: 86px;
+    border: 1px solid #C7C7C7;
+transform: rotate(90deg);
+ }
+
+
+ span {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  
+ 
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+  
+    font-size: 38px;
+
+ }
+
+
+ /* section2 */
+ .section2 {
+   width: 100%;
+   margin-top: 76px;
+  
+   
+ } .section-menu-2 {
+   height: 542px;
+   width: 90%;
+   margin: 0 auto;
+
+  
+ } .section2 > h1 {
+  
+    margin: 30px 0px;
+    margin-left: 80px;
+ }
+  .card-body-line {
+    width: 95%;
+    border-bottom:  1px solid #E2E2E2;
+   margin: 0 auto;
+  
+ }
+  .section-2-buttons > button {
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    border-radius: 9px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+border: none;
+padding: 14px 53px;
+
+color: #FFFFFF;
+ } 
+ 
+ .card-need-body {
+   display: flex;
+   align-items: center;
+   gap: 18px;
+   margin: 0 auto;
+  justify-content: space-around;
+ }
+
+ .section2 > .section-menu-2  > .card-need-body > .card > .card-body > h6 > span {
+   padding-top: 600px;
+}
+ .card {
+   width: 220px;
+   height: 378px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 15px;
+ } .card > h4 {
+   font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #77B2D3;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 15px 15px 0px 0px;
+ } .card-body > p {
+   font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+padding-top: 5px ;
+ }
+ .need-button1 {
+    position: relative;
+    left: 20px;
+ } .need-button2 {
+    position: relative;
+    left: 10px;
+ }  .need-button3 {
+    position: relative;
+    left: 3px;
+ }  .need-button4 {
+    position: relative;
+    right: 10px;
+ }  .need-button5 {
+    position: relative;
+    right: 19px;
+ }
+ .section-2-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+ 
+ 
+ .card-body {
+   display: flex;
+   flex-direction: column;
+   
+ }
+
+
+
+
+
+
+
+ /* section3 */
+.section3 {
+   width: 100%;
+   margin-top: 100px;
+
+} .section-menu-3 {
+   height: 542px;
+   width: 90%;
+   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ }
+ form {
+   width: 570px;
+   height: 513px;
+  
+ } form > p {
+  position: relative;
+  bottom: 32px;
+  left: 50px;
+ }  .footer-li-tr {
+  text-decoration: underline;
+ }
+ form > button {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  border-radius: 9px;
+    
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 26px;
+   border: none;
+   padding: 14px 53px;
+   
+   color: #FFFFFF;
+ }
+ .input1 {
+   width: 270px;
+   height: 59px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 7px;
+border: none;
+padding: 0px 100px;
+
+ } 
+  .input2 {
+   width: 270px;
+   height: 59px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 7px;
+border: none;
+margin-left: 24px;
+padding: 0px 100px;
+ } .input3 {
+   width: 570px;
+   height: 141px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 7px;
+border: none;
+margin-top: 20px;
+padding: 0px 30px;
+padding-bottom: 80px;
+ } .input4 {
+   width: 32px;
+   height: 32px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 2px;
+margin-top: 20px;
+ }
+ .img-menu-3 {
+   height: 511px;
+ }
+ .text-menu-3 > h1 {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #333333;
+ } .text-menu-3 > p {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   margin-top: 30px;
+   color: #333333;
+ }
+
+ /* section4 */
+ .section4 {
+   margin: 112px;
+   width: 100%;
+  
+
+ } .section-menu-4 {
+   height: 542px;
+   width: 90%;
+ 
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+ } .section-menu-4 > i {
+  
+ color: #D1D1D1;
+
+ }
+  .last-card-one {
+   height: 518px;
+   width: 670px;
+   background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+border-radius: 15px;
+
+
+ } .last-card-two {
+    height: 518px;
+    width: 670px;
+    background: #FFFFFF;
+ box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+ border-radius: 15px;
+ 
+ } .last-card-two > img {
+  padding-top: 50px;
+ } .card-body-line1 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 50px;
+
+
+}  .card-body-line2 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 75px;
+
+
+}  .card-body-line3 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+
+
+
+} 
+ .card-body-line4 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 155px;
+
+
+}  .card-body-line5 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 70px;
+} .card-body > h6 {
+  text-align: center;
+  
+}
+  .last-card-body {
+   padding: 20px;
+ } .last-card-body2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   justify-content: space-around;
+   
+   background: #F3F1FE;
+   height: 161px;
+ } .last-card-body2 > ul {
+   list-style: none;
+ } .last-card-body2 > ul > li {
+    padding: 7px 0px;
+ } 
+ .last-card-body3 > img {
+  padding-left: 30px;
+  padding-top: 13px;
+ } .last-card-body3 > p {
+   padding-top: 29px;
+   padding-left: 35px;
+  }
+
+  /* footer */
+  footer {
+   width: 100%;
+   margin-top: 90px;
+   background: #FFFFFF;
+  } .footer-menu {
+   height: 542px;
+   width: 90%;
+   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+ } .footer-menu > ul {
+   list-style: none;
+   
+ } .footer-menu > ul  > li {
+   line-height: 50px;
+ } .footer-menu > ul > li > button {
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  border-radius: 9px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 26px;
+   border: none;
+   padding: 14px 53px;
+   
+   color: #FFFFFF;
+   margin-top: 20px;
+ } .footer-last-line {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 41px;
+   background: #2D2D2D;
+   color: #FFFFFF;
+ }
+
+
+ .card-body >  p  > i {
+   color: white;
+   border-radius: 50%;
+   background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+ 
+ 
+ 
+  
+ }
+ .card-body-line1 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 115px;
+
+
+}  .card-body-line2 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 140px;
+
+
+}  .card-body-line3 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 170px;
+
+
+}  .card-body-line4 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 195px;
+
+
+}  .card-body-line5 {
+  width: 95%;
+  border-bottom:  1px solid #E2E2E2;
+ margin: 0 auto;
+ padding-top: 140px;
+} .card-body > h6 {
+  text-align: center;
+  
+}
